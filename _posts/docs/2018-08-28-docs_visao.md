@@ -13,7 +13,6 @@ categories: DEV
   * 1.2. Escopo]()
   * 1.3. Definições, acrônimos e abreviações]()
   * 1.4. Referências]()
-  * 1.5. Visão geral]()
 * 2. Posição()
  * 2.1. Oportunidade de Negócios]()
  * 2.2. Instrução do problema]()
@@ -34,8 +33,6 @@ categories: DEV
  * 3.6.3. Responsáveis
 * 3.7. Principais necessidades da parte interessada ou do Usuário
 * 3.8. Alternativas e Concorrência
- * 3.8.1. Método tradicional de controle de entrada e saída de alunos
- * 3.8.2.
 * 4. Visão Geral do Produto
  * 4.1. Perspectiva do Produto
  * 4.2. Resumo das capacidades
@@ -56,7 +53,7 @@ categories: DEV
 
 ### 1.1 Propósito
 
-<p align="justify">Este documento tem como objetivo definir e organizar as características sobre o desenvolvimento da solução BI.</p>
+<p align="justify">Este documento tem como objetivo definir e organizar as características sobre o desenvolvimento da solução para um processo de coleta, organização, análise, compartilhamento e monitoramento de informações que oferecem suporte a gestão de negócios ou seja uma BI.</p>
 
 ### 1.2 Escopo
 
@@ -73,10 +70,7 @@ categories: DEV
 + EPS - disciplina Engenharia do Produto.
 
 ### 1.4 Referências
-
-### 1.5 Visão geral
-
-<p align="justify">Este documento descreve os detalhes sobre as características do GamesColorBI a ser desenvolvido, especificando os problemas que estimularam a criação dessa solução em software. O documento é dividido da seguinte maneira: inicialmente é especificado qual problema motivou o desenvolvimento da solução, em seguida as partes interessadas são descritas, e por fim todos os recursos, restrições e requisitos do produto são apresentados.</p>
++ http://www.artsoftsistemas.com.br/blog/o-que-e-business-intelligence/
 
 ## 2. Posição
 ### 2.1 Oportunidade de Negócios
@@ -86,11 +80,11 @@ categories: DEV
 
 ### 2.2 Instrução do problema
 
-| **O problema seria** | a dificuldade em encontrar informações sobre jogos |
+| **O problema seria** | a dificuldade em encontrar dados agrupados sobre jogos, fornecendo informações relevantes para desenvolvedores|
 | :--- | :--- |
 | **que afeta** | mercado de jogos |
-| **cujo impacto é** | jogos com pouca adesão, lançamento de jogos sem expectativas poupaveis |
-| **e uma boa solução seria** | identificar tendências a partir do atual mercado de jogos  |
+| **cujo impacto é** | jogos com pouca adesão, lançamento de jogos sem expectativas palpáveis |
+| **e uma boa solução seria** | identificar tendências a partir de dados do atual mercado de jogos  |
 
 ### 2.3 Instrução de posição do produto
 
@@ -99,14 +93,14 @@ categories: DEV
 | **que** | necessitam de uma ferramenta para analisar dados |
 | **o** | *Games BI* é uma aplicação |
 | **que** | sistematiza dados relevantes e os fornece estruturadamente |
-| **diferente do** | método tradicional feito manualmente e do aplicativo *Acadêmico Total Pais e Filhos* |
+| **diferente do** | método tradicional feito manualmente e do aplicativo *Steamspy* |
 | **nosso produto** | é um alternativa gratuita e funcional para o problema existente. |
 
 ## 3. Descrições da parte interessada e do usuário
 
 ### 3.1 Demográficos de mercado
 
-<p align="justify"> O mercado de games é um dos mercados mais crescente em todo o mundo, com o crescimento desse mercado encontramos os mais diversos jogos alguns muito jogados ou comentados e por consequencia bem remunerado enquanto outros não são tanto assim. O nosso sistema busca facilitar a anlise dos que são mais jogados e comentados e assim mostrar o que pode vir a ser a melhor escolha do que desenvolver, diversos programadores,  designer e animadores de games poderão utilizar o nosso produto.</p>
+<p align="justify"> O mercado de games é um dos mercados mais crescente em todo o mundo.  Com o crescimento desse mercado, encontram-se os mais diversos jogos, alguns deles muito jogados ou comentados e, por consequência, bem remunerados. No entanto, isso não ocorre com todos os jogos. O nosso sistema busca facilitar a anlise dos que são mais jogados e comentados e assim mostrar o que pode vir a ser a melhor escolha do que desenvolver, diversos programadores,  designer e animadores de games poderão utilizar o nosso produto.</p>
 
 ### 3.2 Resumo da parte interessada
 
@@ -119,11 +113,11 @@ categories: DEV
 
 ### 3.3 Resumo do usuário
 
-O usuário obterá dados precisos como informações sobre a quantidade de horas por cada jogo, poderá interagir com os gráficos, filtrar as informações relevantes para ele.
+O usuário obterá dados precisos como informações sobre a quantidade de horas por cada jogo, ira conseguir interagir com os gráficos e filtrar as informações relevantes para ele.
 
 ### 3.4 Ambiente de usuário
 
-<p align="justify"> O <i>software</i> será usado em todos os navegadores, tendo seu uso otimizado para o Google chrome versão 56.0.2924.87 devido a sua performance e por ter a maior base instalada dentre os outros navegadores WEB.</p>
+<p align="justify"> O <i>software</i> podera ser usado em todos os navegadores, tendo seu uso otimizado para o Google chrome versão 56.0.2924.87 devido a sua performance.</p>
 
 ## 3.5 Perfis das partes interessadas
 
@@ -147,7 +141,7 @@ O usuário obterá dados precisos como informações sobre a quantidade de horas
 | **Responsabilidades** | Desenvolvimento, implementação e realização de testes da aplicação. |
 | **Critérios de sucesso** | Entregar o _software_ com as funções requisitadas funcionando e dentro do prazo. |
 | **Envolvimento** | Alto. |
-|    **Comentários/Problemas** | Ter a oportunidade de criar um _software_ a partir de uma necessidade e passar por todas as etapas de desenvolvimento que um projeto necessita para ficar coeso e bem estruturado. |
+|    **Comentários/Problemas** | Ter a oportunidade de desenvolver um _software_ a partir de uma necessidade A inexperiência do grupo nas linguagem de programação que serão utilizadas para desenvolver o software. |
 
 ### 3.5.3 Mercado de jogos
 
@@ -216,8 +210,6 @@ O usuário obterá dados precisos como informações sobre a quantidade de horas
 
 <p align="justify">Atualmente não há nenhuma aplicação que realize uma análise do mercado de jogos usando business inteligence - o que é proposto neste projeto. Há uma aplicação especifica da Steam(Valve L.L.C) para visualização de estatísticas de jogos  e usuários, entretanto não há um interpolação dos dados com outras plataformas . Existe também a plataforma Looker Data Sciences, que oferece BI para empresas mas que não possuí direcionamento especifico para jogos. </p>
 
-### 3.8.1 Método tradicional de controle de entrada e saída de alunos
-
 
 ## 4. Visão geral do produto
 
@@ -253,7 +245,7 @@ A aplicação GamesBI oferece ao usuário:
 
 ### 6.1 Restrição de escopo
 
-Os fatores limitantes seriam recurso financeiro e implantação. Os escopos estão sendo restringidos à funcionalidades não-convencionais.
+Os fatores limitantes são dados mau referenciados impossibilitando acha-los. Os escopos estão sendo restringidos a o Youtube, Twich e a Steam/Steamspy.
 
 <p align="justify"> </p>
 
