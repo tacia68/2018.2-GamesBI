@@ -1,3 +1,4 @@
+
 ---
 title: Documento de visão
 author: Emanoel
@@ -54,23 +55,27 @@ categories: DEV
 
 ### 1.1 Propósito
 
-<p align="justify">Este documento tem como objetivo definir e organizar as características sobre o desenvolvimento da solução BI.</p>
+<p align="justify">Este documento tem como objetivo definir e organizar as características sobre o desenvolvimento da solução BI, que é o processo de coleta, organização, análise, compartilhamento e monitoramento de informações que, através da transformação de uma grande quantidade de dados brutos em informação útil oferece suporte a gestão de negócios em tomadas de decisões estratégicas.</p>
 
 ### 1.2 Escopo
 
-<p align="justify">Realizar uma analise do mercado de jogos usando Business Inteligence.</p>
-<p align="justify">Buscar uma solução em software para facilitar a visão de negocio.</p>
+<p align="justify">Realizar uma analise do mercado de jogos usando Business Inteligence. Pois atualmente não existe nenhuma aplicação que mostre de forma iterativa dados integrados de varias plataformas de jogos, fazendo graficos e retornando dados que ao serem tratados, possuem alto valor agregado para o usuario final.</p>
+<p align="justify">Buscar uma solução em software para facilitar a visão de negocio. Pois um dos problemas enfrentados pelos desenvolvedores de jogo é não saber como está o mercado para o tipo de jogo que está sendo desenvolvido, lançando jogos com pouca adesão, que traz pouco retorno</p>
 <p align="justify">O software, a ser implementado, deve fornecer informações sobre jogos.</p>
 
 ### 1.3 Definições, acrônimos e abreviações
 
 <p align="justify">Alguns dos acrônimos, definições e abreviações usados neste documento são:</p>
 
-+ BI - É o acrônimo de "<i>Business Inteligence</i> ou, em português, Inteligência Empresarial. É, basicamente, um conjunto de tecnologias e metodologias que são capazes de transformar dados brutos em informações significantes a fins estratégicos de negócios.
-+ API - É o acrônimo de "<i>Application Programming Interface</i> ou, em português, Interface de Programação de Aplicativos. É uma espécie de "fornecedora" de dados. Empresas como a Google disponibilizam alguns de seus dados por meio de Api's.
++ BI - É o acrônimo de "<i>Business Inteligence</i>" ou, em português, Inteligência Empresarial. É, basicamente, um conjunto de tecnologias e metodologias que são capazes de transformar dados brutos em informações significantes a fins estratégicos de negócios.
++ API - É o acrônimo de "<i>Application Programming Interface</i>" ou, em português, Interface de Programação de Aplicativos. É uma espécie de "fornecedora" de dados. Empresas como a Google disponibilizam alguns de seus dados por meio de Api's.
 + GameDev - É o acrônimo de "<i>Game Developer</i>. Desenvolvedor de jogos.
 + MDS - Disciplina Métodos de Desenvolvimento de Software da Universidade de Brasília.
 + EPS - Disciplina Engenharia do Produto da Universidade de Brasília.
++ Live - É a abreviação de "<i>Livestream</i>" ou, em português, transmissão ao vivo.
++ Steam - É um software criado pela  Valve L.L.C., de gestão de direitos digitais, como jogos e aplicativos de programação que fornece serviços facilitado como atualização automática de jogos.
++ Leiaute - É um esboço ou rascunho que mostra a estrutura física de uma página de um jornal, revista ou página na internet.
++ Microserviço - É uma maneira específica de desenvolver software, que possui seus serviços independentes, ou seja, uma funcionalidade não depende da outra, caso uma esteja fora do ar isso não afeta as  outras funcionalidades.
 
 ### 1.4 Referências
 
@@ -97,10 +102,11 @@ categories: DEV
 
 | **Para** | Desenvolvedores, analistas, produtores de conteúdo|
 | :--- | :--- |
-| **que** | necessitam de uma ferramenta para analisar dados |
+| **que** | necessitam de uma ferramenta para analisar dados de jogos|
 | **o** | *Games BI* é uma aplicação |
 | **que** | sistematiza dados relevantes e os fornece estruturadamente |
-| **diferente do** | método tradicional feito manualmente e do aplicativo *Acadêmico Total Pais e Filhos* |
+| **diferente do** | método tradicional feito manualmente e da aplicação *Steamspy* |
+| **que** | não apresenta dados integrados entre diversas plataformas |
 | **nosso produto** | é um alternativa gratuita e funcional para o problema existente. |
 
 ## 3. Descrições da parte interessada e do usuário
@@ -296,3 +302,5 @@ O sistema deve ser capaz de se recuperar à falhas e responder ao usuário com o
 Os dados são oriundos de fontes externas (serviços). Isso torna o software mais confiável, pois como cada microserviço é independente, caso uma fonte de dados caia, apenas o microserviço ligado à esta fonte para de funcionar.
 
 <p align="justify"> </p>
+
+
