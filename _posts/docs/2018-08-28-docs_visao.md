@@ -227,7 +227,6 @@ O usuário terá acesso a dados como, por exemplo: jogos com mais interações e
 
 O sistema contará com uma plataforma online capaz de disponibilizar informações estatísticas a respeito de jogos digitais, visando oferecer para o empreendedor uma melhor e mais ampla visão de negócios sobre o mundo dos games e fornecer mecanismos para GameDevs e profissionais da área de games acessarem através de um leiaute, de fácil compreensão, os dados apresentados.
 
-
 ### 4.1 Perspectiva do Produto
 
 <p align="justify"> </p>
